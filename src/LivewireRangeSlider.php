@@ -1,6 +1,6 @@
 <?php
 
-namespace Jantinnerezo\LivewireRangeSlider;
+namespace Dashed\LivewireRangeSlider;
 
 use Illuminate\Support\Str;
 use Illuminate\View\Component;

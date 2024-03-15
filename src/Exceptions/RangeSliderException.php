@@ -1,6 +1,6 @@
 <?php
 
-namespace Jantinnerezo\LivewireRangeSlider\Exceptions;
+namespace Dashed\LivewireRangeSlider\Exceptions;
 
 use Exception;
 
