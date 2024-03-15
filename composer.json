@@ -1,23 +1,22 @@
 {
-    "name": "jantinnerezo/livewire-range-slider",
+    "name": "dashed/livewire-range-slider",
     "description": "A Tall Stack wrapper for noUiSlider Range Slider",
     "keywords": [
         "jantinnerezo",
         "livewire-range-slider"
     ],
-    "homepage": "https://github.com/jantinnerezo/livewire-range-slider",
+    "homepage": "https://github.com/Dashed-DEV/livewire-range-slider",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Jantinn Erezo",
-            "email": "erezojantin@gmail.com",
+            "name": "Robin van Maasakker",
+            "email": "robin@dashed.nl",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.67|^9.0|^10.0"
+        "php": "^8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^8.14",
@@ -26,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jantinnerezo\\LivewireRangeSlider\\": "src"
+            "Dashed\\LivewireRangeSlider\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jantinnerezo\\LivewireRangeSlider\\Tests\\": "tests"
+            "Dashed\\LivewireRangeSlider\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jantinnerezo\\LivewireRangeSlider\\LivewireRangeSliderServiceProvider"
+                "Dashed\\LivewireRangeSlider\\LivewireRangeSliderServiceProvider"
             ],
             "aliases": {
-                "LivewireRangeSlider": "Jantinnerezo\\LivewireRangeSlider\\LivewireRangeSliderFacade"
+                "LivewireRangeSlider": "Dashed\\LivewireRangeSlider\\LivewireRangeSliderFacade"
             }
         }
     }
