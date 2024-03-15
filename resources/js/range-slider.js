@@ -2,7 +2,7 @@ import noUiSlider from 'nouislider';
 import 'nouislider/dist/nouislider.css'
 
 const CHANGE_EVENT = 'change';
-const EMPTY_MODIFER = 'empty';
+const EMPTY_MODIFER = 'live';
 const LAZY_MODIFIER = 'lazy';
 const DEFER_MODIFIER = 'defer';
 
